@@ -2,3 +2,4 @@ tensorflow
 tflearn
 nltk
 Flask
+gunicorn
