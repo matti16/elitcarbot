@@ -3,3 +3,4 @@ tflearn
 nltk
 Flask
 gunicorn
+requests
