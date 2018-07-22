@@ -42,7 +42,7 @@ def handle_incoming_messages():
     return "ok"
 
 @app.route('/test', methods=['POST'])
-def handle_incoming_messages():
+def test_incoming_messages():
     data = request.json
     message = data
     response = chatbot.response(message)
