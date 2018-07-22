@@ -1,0 +1,52 @@
+{ "intents": [
+		{"intent": "greetings", 
+		 "patterns": ["Buongiorno", "Ciao come va?", "Buonasera", "Salve come va"],
+		 "responses": ["Buongiorno, come posso aiutarla?", "Buongiorno e grazie per farci visita!", "Buongiorno, sono a sua disposizione.", "Buongiorno, è un piacere vederla qui."]
+		},
+		{"intent": "openings",
+		 "patterns": ["Che orari fate?", "Quando siete aperti?", "Siete aperti?", "Quando chiudete?", "Quali giorni siete aperti?", "Siete aperti nel weekend?"],
+		 "responses": ["La concessionaria è aperta da lunedì a venerdi: dalle 9.00 alle 13.00 e dalle 14.30 alle 19.00, il sabato: dalle 9.00 alle 12.30 e dalle 15.00 alle 18.30. L'officina invece è chiusa anche il sabato pomeriggio, mentre la carozzeria è chiusa anche sabato mattina e pomeriggio. Domenica siamo chiusi."]
+		},
+		{"intent": "location",
+		 "patterns": ["Dov'è la concessionaria?", "Dove siete?", "In che città siete?", "Dove vi trovo?"],
+		 "responses": ["Ci trovi a Magenta (MI) in Corso Italia 40, ang. via F.lli di Dio n. 1.", "Siamo a Magenta, Corso Italia 40, ang. via F.lli di Dio n. 1.", "La concessionaria è Magenta. Vieni a trovarci quando vuoi in Corso Italia 40, ang. via F.lli di Dio n. 1."]
+		},
+
+		{"intent": "contacts",
+		 "patterns": ["Come posso contattarvi?", "Avete un contatto?", "Avete altri contatti?"],
+		 "responses": ["Puoi telefonarci allo 02-97001402, mandarci un FAX 02-97002244 o una mail info@elitcar.it.", "Ecco i nostri contatti: Tel. 02-97001402 - Fax. 02-97002244. Email. info@elitcar.it"]
+		},
+		{"intent": "phone",
+		 "patterns": ["Posso chiamare?", "Chi devo chiamare", "Avete un numero di telefono?", "Vorrei telefonare"],
+		 "responses": ["Puoi telefonarci allo 02-97001402", "Il nostro numero di telefono è 02-97001402."]
+		},
+		{"intent": "mail",
+		 "patterns": ["Avete un casella di posta?", "Mi date la vostra mail?", "Mi date la vostra email?", "Qual è la vostra mail"],
+		 "responses": ["Per informazione puoi scriveri a info@elitcar.it.", "La nostra casella di posta per informazioni è info@elitcar.it"]
+		},
+		{"intent": "fax",
+		 "patterns": ["avete un FAX?", "Posso mandare un FAX?"],
+		 "responses": ["Il nostro numero di FAX è 02-97002244", "Mandaci pure un FAX allo 02-97002244"]
+		},
+
+		{"intent": "cars",
+		 "patterns": ["Che macchine avete?", "Che tipo di auto vendete?", "Che auto vendete?", "Cosa vendete?", "Che offerte avete?" , "Vorrei acquistare un'auto"],
+		 "responses": ["Elitcar è leader in Italia nella vendita di vetture Aziendali Jahreswagen Mercedes-Benz e Smart. Vendiamo principalmente Mercedes, Audi e Volkswagen. Trovi le offerte del momento qui: https://elitcar.it/parco-auto",
+		 				"Controlla le offerte del momento: https://elitcar.it/parco-auto. Siamo leader nella vendita di vetture Aziendali Jahreswagen Mercedes-Benz e Smart, ma vendiamo anche Audi, Volkswagen ed altro."]
+		},
+		{"intent": "second_hand",
+		 "patterns": ["Avete usato?", "Che macchine usate avete?", "Vorrei un macchina usata", "Vorrei un'auto usata"],
+		 "responses": ["Abbiamo sempre dell'usato. Puoi controllare le offerte del momento qui: https://elitcar.it/parco-auto/?pa_tipologia=7170", "Ti consigliamo di controllare le nostre offerte sull'usato qui: https://elitcar.it/parco-auto/?pa_tipologia=7170"]
+		},
+		{"intent": "rental",
+		 "patterns": ["Avete auto a noleggio?", "Noleggiate auto?", "è possibile noleggiare?", "Vorrei una macchina a noleggio"],
+		 "responses": ["Abbiamo un servizio di auto sostitutiva, a prezzi eccezionali. Disponibili: Smart 2 e 4 posti, Mercedes Classe A, Mercedes Classe B, Volkswagen Golf e FIAT 500. Per info manuela.rivetta@elitcar.it"]
+		},
+
+		{"intent": "loan",
+		 "patterns": ["Fate finanziamenti?", "Fate prestiti?", "Poso pagare a rate?"],
+		 "responses": ["Elitcar sempre attenta alle esigenze dei suoi cliente mette a disposizione diverse tipologie di piano finanziario, fino a 60 mesi per vetture nuove, fino a 48 mesi per le vetture usate. Chiamaci o vieni a trovarci per per maggiori dettagli.",
+		 				"Elitcar ti da la possibilità di scegliere un piano con un importo basso di rata mensile con una maxi rata finale, con l’opportunità di scegliere anche la soluzione anticipo 0. In ogni caso il cliente Elitcar può decidere di rifinanziare o saldare in un’unica soluzione. Chiamaci o vieni a trovarci per per maggiori dettagli."]
+		}
+	]
+}
